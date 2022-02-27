@@ -1,0 +1,65 @@
+/* VARIABLES */
+:root {
+    /* colors */
+    --feature-color: #d8e7ed;
+    --background-colour: #f2f1e2;
+    --text-colour: #000000;
+    /* fonts */
+    --header-font: "Space Grotesk";
+    --main-font: "Roboto Mono";
+}
+
+/* MAIN */
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* PROJECT TILE */
+.project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--feature-color);
+}
+.project-header {
+    width: 100%;
+}
+.project-header h3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+}
+.project-link {
+    border: 2px solid var(--text-colour);
+    padding: 2rem;
+    margin: 1rem 2rem 2rem 2rem;
+    background-color: var(--background-colour);
+}
+.project-img {
+    width: 100%;
+    text-align: center;
+}
+.project-img img {
+    width: 50%;
+}
+.project-text {
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 400px) {
+.project-link {
+    width: 340px;
+}
+@media only screen and (min-width: 800px) {
+.project-tile {
+    width: 50%;
+}
+}
+@media only screen and (min-width: 1200px) {
+.project-tile {
+    width: calc(100% / 3);
+}
+}
