@@ -53,3 +53,27 @@
     padding: 2rem;
     text-align: center;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 400px) {
+.blog-img img {
+    width: 20vw;
+}
+.blog-text {
+    padding: 2rem 8rem;
+}
+.blog-header h3 {
+    font-size: 1.5rem;
+}
+}
+@media only screen and (min-width: 900px) {
+.blog-img img {
+    width: 15vw;
+}
+.blog-text {
+    padding: 2rem 18rem;
+}
+.blog-header h3 {
+    font-size: 2rem;
+}
+}
