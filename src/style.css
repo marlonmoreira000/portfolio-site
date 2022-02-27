@@ -4,8 +4,114 @@
     box-sizing: border-box;
 }
 
-/* DUMMY STYLING */
-#header {
-    background-color: lightsalmon;
+/* TEMP STYLING */
+
+
+/* VARIABLES */
+:root {
+    /* colors */
+    --feature-color: #d8e7ed;
+    --background-colour: #f2f1e2;
+    --text-colour: #000000;
+    /* fonts */
+    --header-font: "Space Grotesk";
+    --main-font: "Roboto Mono";
 }
 
+/* ARTICLE */
+article {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--background-colour);
+    font-family: var(--main-font);
+}
+
+/* NAVBAR */
+#header {
+    width: 100%;
+    background-color: var(--feature-color);
+}
+#navbar-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 1rem;
+    padding: 2rem;
+}
+#navbar-list li a {
+    color: var(--text-colour);
+    font-size: 1rem;
+}
+
+/* HERO HEADER */
+#hero-header {
+    width: 100%;
+    text-align: center;
+    background-color: var(--feature-color);
+    padding-bottom: 1rem;
+}
+#hero-header h1 {
+    font-family: var(--header-font);
+    font-size: 3rem;
+}
+
+/* HERO IMAGE */
+#hero-img {
+    width: 100%;
+    text-align: center;
+    background-color: var(--feature-color);
+}
+#hero-img img {
+    width: 60vw;
+    border: 2px solid var(--text-colour);
+    filter: grayscale(0.2);
+}
+
+/* MAIN TEXT */
+#main-section {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--feature-color);
+}
+
+/* BUTTON */
+#resume-button {
+    width: 100%;
+    text-align: center;
+    background-color: var(--background-colour);
+    padding: 3rem;
+}
+#resume-button a {
+    color: var(--text-colour);
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--text-colour);
+}
+
+/* FOOTER */
+#footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+#footer p {
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+}
+#social-links a img {
+    width: 2.5rem;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 400px) {
+#hero-img img {
+    width: 45vw;
+}
+@media only screen and (min-width: 900px) {
+#hero-img img {
+    width: 30vw;
+}
+}
