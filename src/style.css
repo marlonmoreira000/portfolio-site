@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-/* TEMP STYLING */
-
-
 /* VARIABLES */
 :root {
     /* colors */
@@ -22,6 +19,7 @@
 article {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: var(--background-colour);
     font-family: var(--main-font);
 }
@@ -94,6 +92,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 #footer p {
@@ -109,6 +108,7 @@ article {
 @media only screen and (min-width: 400px) {
 #hero-img img {
     width: 45vw;
+}
 }
 @media only screen and (min-width: 900px) {
 #hero-img img {

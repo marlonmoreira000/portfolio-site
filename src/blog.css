@@ -1,0 +1,55 @@
+/* VARIABLES */
+:root {
+    /* colors */
+    --feature-color: #d8e7ed;
+    --background-colour: #f2f1e2;
+    --text-colour: #000000;
+    /* fonts */
+    --header-font: "Space Grotesk";
+    --main-font: "Roboto Mono";
+}
+
+/* BLOG ENTRY */
+.blog-entry {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#blog-1 {
+    background-color: var(--feature-color);
+}
+#blog-2 {
+    background-color: var(--background-colour);
+}
+#blog-3 {
+    background-color: var(--feature-color);
+}
+#blog-4 {
+    background-color: var(--background-colour);
+}
+#blog-5 {
+    background-color: var(--feature-color);
+}
+
+/* BLOG HEADER */
+.blog-header {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0rem 1rem 0rem;
+}
+.blog-header h3 {
+    width: 100%;
+    font-family: var(--header-font);
+}
+
+/* BLOG IMAGE */
+.blog-img img {
+    width: 30vw;
+}
+
+/* BLOG TEXT */
+.blog-text {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
