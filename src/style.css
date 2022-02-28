@@ -1,7 +1,11 @@
+/* STARTER CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
 }
 
 /* VARIABLES */
@@ -62,7 +66,7 @@ article {
 #hero-img img {
     width: 60vw;
     border: 2px solid var(--text-colour);
-    filter: grayscale(0.2);
+    filter: grayscale(0.4);
 }
 
 /* MAIN TEXT */

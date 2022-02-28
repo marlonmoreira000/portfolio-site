@@ -1,0 +1,97 @@
+/* VARIABLES */
+:root {
+    /* colors */
+    --feature-color: #d8e7ed;
+    --background-colour: #f2f1e2;
+    --text-colour: #000000;
+    /* fonts */
+    --header-font: "Space Grotesk";
+    --main-font: "Roboto Mono";
+}
+
+/* WHOLE DOCUMENT */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* BODY */
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+/* NAVBAR */
+.box .row.header {
+  flex: 0 1 auto;
+  background-color: var(--feature-color);
+}
+
+/* HERO TEXT */
+#home-hero-container {
+    flex: 0 1 auto;
+    padding: 2rem;
+    background-color: var(--feature-color);
+    text-align: center;
+}
+#home-hero-container h1 {
+    font-size: 2.5rem;
+    font-family: var(--header-font);
+}
+#home-hero-container h2 {
+    font-size: 2rem;
+    font-family: var(--header-font);
+    color: lightslategray;
+}
+
+/* HOME IMAGE */
+#home-img {
+    text-align: center;
+    background-color: var(--feature-color);
+}
+#home-img img {
+    width: 20vh;
+    flex: 0 1 auto;
+}
+
+/* BUTTON */
+#resume-button {
+    background-color: var(--feature-color);
+}
+
+/* BUFFER */
+.box .row.content {
+  flex: 1 1 auto;
+  background-color: var(--feature-color);
+}
+
+/* FOOTER */
+#footer {
+  flex: 0 1 40px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 600px) {
+#home-img img {
+    width: 25vh;
+}
+#home-hero-container h1 {
+    font-size: 3rem;
+}
+#home-hero-container h2 {
+    font-size: 2.4rem;
+}
+}
+@media only screen and (min-width: 1000px) {
+#home-img img {
+    width: 30vh;
+}
+#home-hero-container h1 {
+    font-size: 3.5rem;
+}
+#home-hero-container h2 {
+    font-size: 2.8rem;
+}
+}
