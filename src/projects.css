@@ -28,6 +28,8 @@
 }
 .project-header h3 {
     width: 100%;
+    font-size: 2rem;
+    font-family: var(--header-font);
     text-align: center;
     padding-top: 2rem;
 }
