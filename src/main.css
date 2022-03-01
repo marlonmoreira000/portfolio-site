@@ -1,0 +1,68 @@
+/* STARTER CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* VARIABLES */
+:root {
+    /* colors */
+    --feature-color: #d8e7ed;
+    --background-colour: #f2f1e2;
+    --text-colour: #000000;
+    /* fonts */
+    --header-font: "Space Grotesk";
+    --main-font: "Roboto Mono";
+}
+
+/* TEXT STYLING */
+p {
+    font-family: var(--main-font);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+}
+
+
+/* HEADER SECTION */
+.header-container {
+    width: 100%;
+    background-color: var(--feature-color);
+    padding: 2rem;
+}
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 1rem;
+}
+.navbar-item {
+    color: var(--text-colour);
+    font-family: var(--main-font);
+}
+
+/* HEADINGS */
+.heading-container {
+    background-color: var(--feature-color);
+}
+.heading-primary {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+.footer-container {
+    text-align: center;
+    padding: 1rem 0rem;
+    background-color: var(--background-colour);
+}
+.social-links-img {
+    width: 50px;
+}
