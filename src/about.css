@@ -9,77 +9,51 @@
     --main-font: "Roboto Mono";
 }
 
-/* ARTICLE */
+/* WHOLE PAGE FLEXBOX */
 article {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: var(--background-colour);
-    font-family: var(--main-font);
+    flex-direction: column;
+    height: 100vh;
 }
-
-/* HERO HEADER */
-#hero-header {
-    width: 100%;
-    text-align: center;
-    background-color: var(--feature-color);
-    padding-bottom: 1rem;
+.header-container {
+    flex: 0 1 auto;
 }
-#hero-header h1 {
-    font-family: var(--header-font);
-    font-size: 3rem;
-}
-
-/* HERO IMAGE */
-#hero-img {
-    width: 100%;
-    text-align: center;
+.main-container {
+    flex: 1 1 auto;
     background-color: var(--feature-color);
 }
-#hero-img img {
+.footer-container {
+    flex: 0 1 auto;
+}
+
+/* HERO TEXT */
+.main-text-container {
+    padding: 2rem 10% 0rem 10%;
+    text-align: center;
+}
+
+/* HOME IMAGE */
+.main-img-container {
+    text-align: center;
+}
+.main-img {
     width: 60vw;
     border: 2px solid var(--text-colour);
-    filter: grayscale(0.2);
-}
-
-/* MAIN TEXT */
-#main-section {
-    width: 100%;
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--feature-color);
-}
-
-/* BUTTON */
-#resume-button {
-    width: 100%;
-    text-align: center;
-    background-color: var(--feature-color);
-    padding: 3rem;
-}
-#resume-button a {
-    color: var(--text-colour);
-    padding: 0.75rem 1.5rem;
-    border: 2px solid var(--text-colour);
-}
-#resume-button a:hover {
-    background-color: lightslategray;
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-width: 400px) {
-    #hero-img img {
-        width: 40vw;
+@media only screen and (min-width: 600px) {
+    .main-img {
+        width: 365px;
     }
-    #main-section {
-        padding: 2rem 8rem 0rem 8rem;
+    .main-text-container {
+        padding: 2rem 15% 0rem 15%;
+        text-align: center;
     }
 }
-@media only screen and (min-width: 900px) {
-    #hero-img img {
-        width: 25vw;
-    }
-    #main-section {
-        padding: 2rem 20rem 0rem 20rem;
+@media only screen and (min-width: 1000px) {
+    .main-text-container {
+        padding: 2rem 20% 0rem 20%;
+        text-align: center;
     }
 }
