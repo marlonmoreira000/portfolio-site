@@ -41,6 +41,7 @@ article {
 .main-img {
     width: 60vw;
     border: 2px solid var(--text-colour);
+    box-shadow: 2px 4px black;
 }
 
 /* MEDIA QUERIES */
