@@ -37,11 +37,37 @@ article {
 .hero-text.primary {
     font-size: 2.5rem;
     font-family: var(--header-font);
+    /* animation */
+    animation-name: slide-in-left-primary;
+    animation-duration: 2s;
+}
+@keyframes slide-in-left-primary {
+    0% {
+        opacity: 0;
+        transform: translateX(-2rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
 }
 .hero-text.secondary {
     font-size: 2rem;
     font-family: var(--header-font);
     color: lightslategray;
+    /* animation */
+    animation-name: slide-in-left-secondary;
+    animation-duration: 2s;
+}
+@keyframes slide-in-left-secondary {
+    0% {
+        opacity: 0;
+        transform: translateX(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
 }
 
 /* HOME IMAGE */
