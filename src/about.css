@@ -1,3 +1,6 @@
+/* ####################################################
+                    PAGE SETUP
+#################################################### */
 /* VARIABLES */
 :root {
     /* colors */
@@ -12,7 +15,7 @@
 }
 
 /* WHOLE PAGE FLEXBOX */
-article {
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -28,6 +31,9 @@ article {
     flex: 0 1 auto;
 }
 
+/* ####################################################
+                    MAIN HEADINGS
+#################################################### */
 /* HERO TEXT */
 .main-text-container {
     padding: 2rem 10% 0rem 10%;
@@ -44,7 +50,9 @@ article {
     box-shadow: 3px 4px black;
 }
 
-/* MEDIA QUERIES */
+/* ####################################################
+                    MEDIA QUERIES
+#################################################### */
 @media only screen and (min-width: 600px) {
     .main-img {
         width: 365px;

@@ -1,3 +1,6 @@
+/* ####################################################
+                    PAGE SETUP
+#################################################### */
 /* VARIABLES */
 :root {
     /* colors */
@@ -11,12 +14,15 @@
     --main-font-backup: sans-serif;
 }
 
-/* MAIN */
 .main-container.flex-container {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--feature-color);
 }
+
+/* ####################################################
+                    PROJECT TILES
+#################################################### */
 .project-tile {
     width: 100%;
     background-color: var(--feature-color);
@@ -33,14 +39,15 @@
     padding: 1rem;
     margin: auto;
     box-shadow: 3px 4px black;
-
 }
 .project-link {
     width: 120px;
 }
 
 
-/* MEDIA QUERIES */
+/* ####################################################
+                    MEDIA QUERIES
+#################################################### */
 @media only screen and (min-width: 800px) {
 .project-tile {
     width: 50%;

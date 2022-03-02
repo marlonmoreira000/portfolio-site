@@ -1,3 +1,6 @@
+/* ####################################################
+                    PAGE SETUP
+#################################################### */
 /* VARIABLES */
 :root {
     /* colors */
@@ -10,9 +13,8 @@
     --main-font: "Roboto Mono";
     --main-font-backup: sans-serif;
 }
-
 /* WHOLE PAGE FLEXBOX */
-article {
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -28,6 +30,9 @@ article {
     flex: 0 1 auto;
 }
 
+/* ####################################################
+                    MAIN HEADINGS
+#################################################### */
 /* HERO TEXT */
 .hero-text-container {
     padding: 2rem;
@@ -70,7 +75,9 @@ article {
     }
 }
 
-/* HOME IMAGE */
+/* ####################################################
+                    MAIN IMAGE
+#################################################### */
 .main-img-container {
     text-align: center;
     background-color: var(--feature-color);
@@ -79,7 +86,9 @@ article {
     width: 60vw;
 }
 
-/* MEDIA QUERIES */
+/* ####################################################
+                    MEDIA QUERIES
+#################################################### */
 @media only screen and (min-width: 600px) {
     .main-img {
         width: 360px;

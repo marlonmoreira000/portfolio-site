@@ -1,7 +1,11 @@
-/* IMPORTS */
+/* ####################################################
+                    IMPORTS
+#################################################### */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk:wght@600&display=swap');
 
-/* STARTER CSS */
+/* ####################################################
+                    GLOBAL SETUP
+#################################################### */
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +15,7 @@ html,
 body {
     height: 100vh;
     width: 100vw;
-    /* background-color: var(--feature-color); */
 }
-
 /* VARIABLES */
 :root {
     /* colors */
@@ -26,7 +28,6 @@ body {
     --main-font: "Roboto Mono";
     --main-font-backup: sans-serif;
 }
-
 /* TEXT STYLING */
 p, a {
     font-family: var(--main-font), var(--main-font-backup);
@@ -35,7 +36,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--header-font), var(--header-font-backup);
 }
 
-
+/* ####################################################
+                    NAVBARS
+#################################################### */
 /* NAVBAR SECTION */
 .header-container {
     width: 100%;
@@ -55,7 +58,9 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(2px);
 }
 
-/* HEADINGS */
+/* ####################################################
+                    HEADINGS
+#################################################### */
 .heading-container {
     width: 100%;
     background-color: var(--feature-color);
@@ -66,7 +71,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-/* BUTTONS */
+/* ####################################################
+                    BUTTONS
+#################################################### */
 .button-container {
     width: 100%;
     text-align: center;
@@ -87,7 +94,9 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: inset 2px 3px black;
 }
 
-/* FOOTER SECTION */
+/* ####################################################
+                    FOOTERS
+#################################################### */
 .footer-container {
     text-align: center;
     padding: 1rem 0rem;
