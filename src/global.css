@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk:wght@600&display=swap');
+
 /* STARTER CSS */
 * {
     margin: 0;
@@ -19,15 +21,17 @@ body {
     --text-colour: #000000;
     /* fonts */
     --header-font: "Space Grotesk";
+    --header-font-backup: monospace;
     --main-font: "Roboto Mono";
+    --main-font-backup: sans-serif;
 }
 
 /* TEXT STYLING */
 p, a {
-    font-family: var(--main-font);
+    font-family: var(--main-font), var(--main-font-backup);
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--header-font);
+    font-family: var(--header-font), var(--header-font-backup);
 }
 
 
@@ -45,7 +49,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-item {
     color: var(--text-colour);
-    font-family: var(--main-font);
 }
 
 /* HEADINGS */

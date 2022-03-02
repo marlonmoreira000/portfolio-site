@@ -6,7 +6,9 @@
     --text-colour: #000000;
     /* fonts */
     --header-font: "Space Grotesk";
+    --header-font-backup: monospace;
     --main-font: "Roboto Mono";
+    --main-font-backup: sans-serif;
 }
 
 /* BLOG ENTRY */
