@@ -50,6 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-item {
     color: var(--text-colour);
 }
+.navbar-item:hover {
+    transform: translateY(2px);
+}
 
 /* HEADINGS */
 .heading-container {
@@ -81,7 +84,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .button:active {
     box-shadow: inset 2px 3px black;
-    
 }
 
 /* FOOTER SECTION */
