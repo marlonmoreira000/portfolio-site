@@ -32,6 +32,8 @@
     background: var(--background-colour);
     padding: 1rem;
     margin: auto;
+    box-shadow: 3px 4px black;
+
 }
 .project-link {
     width: 120px;
