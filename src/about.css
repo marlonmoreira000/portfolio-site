@@ -81,7 +81,7 @@ body {
 @media only screen and (min-width: 1000px) {
     .flexbox-container-about {
         width: 800px;
-        padding: 2rem 0rem;
+        padding: 3rem 0rem 4rem 0rem;
     }
     .main-img {
         width: 50%;

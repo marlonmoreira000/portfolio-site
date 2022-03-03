@@ -10,19 +10,13 @@ Remote repository: https://github.com/marlonmoreira000/portfolio-site`
 
 ## Description
 
-This repository contains my first online portfolio written in HTML and SCSS. The repo contains all source files and presentation slides with initial wireframe designs.
-
----
-
-## Project Brief
-
-Create a portfolio website which presents you as a dev and IT professional. The purpose is to provide an online portfolio that provides information about you, your skills, interests, professional knowledge and a showcase of your work.
+This repository contains my first personal portfolio site. You can find all source files and presentation slides in this repository.
 
 ---
 
 ## Purpose
 
-The purpose of this website, is to showcase my current programming skills and projects to potential employers. It is also intended to provide a means of contact and an insight into my personality.
+The purpose of this site is to showcase my current web dev skills and projects to potential employers. It is also intended to provide a means of contact and a chance to practice my love for minimalistic design.
 
 ---
 
@@ -32,44 +26,45 @@ The website features several key pages, all with responsive design implemented f
 
 All pages feature responsive layout design utilising flexbox and media queries. Consistent use of two imported Google fonts is also used, with specific fallback options for each.
 
-- ?
-- ?
-- ?
-
-### Site-Wide Features
-
-- ?
-- ?
-- ?
-
-### Page Specific Features
-
-- ?
-- ?
-- ?
+- Significant use of Flexbox
+- Use of semantic elements and comments make the code easy to follow.
+- Code designed using the D.R.Y. principle.
+- Animated titles on the landing page (using keyframes).
+- Range of hover effects on links, buttons and images.
+- Consistent use of colours and fonts to create coherency.
+- Consistent use of design elements such as font and border styling.
+- Reuseable components for navbars, buttons, cards and blog entries.
+- Minimalistic design to create a sense of simplicity and aesthetics.
 
 ---
 
 ## Sitemap
 
-insert sitemap img
+![Sitemap](./docs/sitemap-gimp.png)
 
 ---
 
 ## Screenshots
 
-insert screenshots img
+![home](./docs/screenshot-home.png)
+![about](./docs/screenshot-about.png)
+![blog](./docs/screenshot-blog.png)
+![projects](./docs/screenshot-projects.png)
 
 ---
 
 ## Target Audience
 
-insert target audience
+The target audience is potential employers looking to hire software developers in Perth or remotely.
 
 ---
 
 ## Tech stack
 
-- ?
-- ?
-- ?
+For this project, I used the following technologies:
+
+- Balsamiq (wireframes)
+- Canva (screenshots and presentation)
+- HTML5
+- CSS3
+- Git / GitHub
