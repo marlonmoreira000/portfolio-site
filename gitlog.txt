@@ -1,0 +1,161 @@
+commit 43180ef8eca82cb74eac10d38915f243fe3ace42
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Fri Mar 4 11:27:28 2022 +0800
+
+    add portfolio  site url to README
+
+commit 54051e95874b255ff702063e4dcab7cb1f57a54c
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Fri Mar 4 11:12:26 2022 +0800
+
+    add slideshow pdf
+
+commit 97fbc8284f5b34e60e764b0e6ae70c627bcd5cee
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Fri Mar 4 08:09:41 2022 +0800
+
+    add text to REAMDE
+
+commit b7b70b0745e51490286f6c3f0e93452d01955fdf
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Thu Mar 3 13:49:53 2022 +0800
+
+    finish README
+
+commit 8ba41f2c5c39df559a2eb33afab4851cc1ac2f75
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Thu Mar 3 08:35:25 2022 +0800
+
+    add flexbox wrapping to about me page
+
+commit 3e4221ef3b0c18f88a20829b70f69471df3a83d9
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 13:44:08 2022 +0800
+
+    clean up CSS comments
+
+commit ff014594c20fde6ffa68be5a332448c5930308c5
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 12:59:23 2022 +0800
+
+    add favicon
+
+commit db7863caefadd859435b209cc3a83d88cfed6b5b
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 12:31:54 2022 +0800
+
+    fix project folder structure
+
+commit 40be18151875d9cf503c6dca58808f81b0646162
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 11:56:39 2022 +0800
+
+    changed about me description
+
+commit bc04b9691edea6a18b30d759b824b7547deada14
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 11:10:31 2022 +0800
+
+    change lorem ipsum on blog page
+
+commit e8c81144230cc6f0e0b94c09698a3a31a644a4ca
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 10:39:48 2022 +0800
+
+    add animation to landing page heading
+
+commit 5ac380175e4bc2e8c7e9ee64b6a190f4c9181002
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 09:32:40 2022 +0800
+
+    add interactive buttons
+
+commit a432390a3744f019b78378971cc359cbe6561df4
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 09:08:05 2022 +0800
+
+    add backup fonts and make all CSS DRY
+
+commit ab573a885613db2daf41ad2fa7278ad55922e1f7
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Wed Mar 2 08:53:09 2022 +0800
+
+    refactor home and about page code
+
+commit 4d2bccd1c0fdf3426e4ff1a03cd9dc16a3d4703d
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Tue Mar 1 21:50:05 2022 +0800
+
+    refactor code for projects page
+
+commit 3c7e7f6eb2bedc430c9aeb1ea062af4d45b87a47
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Tue Mar 1 13:55:26 2022 +0800
+
+    refactor blog page code
+
+commit 4b696feba4a3e9b651325dfb9b936dfd179b9e63
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Mon Feb 28 15:37:24 2022 +0800
+
+    add resume download and button highlighting
+
+commit bdf4169c0eada425a48c2e83b98ac8921dd745e4
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Mon Feb 28 15:22:42 2022 +0800
+
+    add touch ups to hyperlinks
+
+commit d449a6589857697a84fc4ed2dbe22440a8865060
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Mon Feb 28 14:53:46 2022 +0800
+
+    add hrefs to navbar links
+
+commit cdb5c54cac9a14135bcd31866189cf95cc851811
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Mon Feb 28 14:49:30 2022 +0800
+
+    finish landing page for mobile tablet and desktop
+
+commit c84f9b78caae1fd936e426054d4c24c76fa226ac
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Sun Feb 27 22:22:31 2022 +0800
+
+    finish projects mobile tablet and desktop pages
+
+commit a04b2362c08e8cb044d65fdc8065b59bdd0c61b6
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Sun Feb 27 18:41:38 2022 +0800
+
+    finish tablet and desktop blog page
+
+commit 25a267dff13efe036b5171129e287bcc4fc83dae
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Sun Feb 27 18:24:02 2022 +0800
+
+    finish mobile blog page
+
+commit 7cea8ecf3b37cf4d1a632bf9a0162f385532bcbc
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Sun Feb 27 14:39:09 2022 +0800
+
+    finish draft about page
+
+commit 1799cc14fad61aad47b170ac3cee873faa409c12
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Fri Feb 25 16:10:48 2022 +0800
+
+    add about.html structure
+
+commit 452c2fee4f4ab5c1431107ddb69625a9abd27096
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Fri Feb 25 16:10:03 2022 +0800
+
+    add gitlog.txt file
+
+commit a62b48b9137dc8306f6b198181c9cf4f8927066f
+Author: marlonmoreira000 <marlonmoreira000@gmail.com>
+Date:   Fri Feb 25 16:09:37 2022 +0800
+
+    add README.md
