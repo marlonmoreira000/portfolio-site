@@ -10,23 +10,22 @@ Remote repository: https://github.com/marlonmoreira000/portfolio-site`
 
 ## Description
 
-This repository contains my first personal portfolio site. You can find all source files and presentation slides in this repository.
+This is my first personal portfolio site, developed at Coder Academy. You can find all associated files and documents in this repository.
 
 ---
 
 ## Purpose
 
-The purpose of this site is to showcase my current web dev skills and projects to potential employers. It is also intended to provide a means of contact and a chance to practice my love for minimalistic design.
+The purpose of this site is to demonstrate my coding skills and projects to potential employers.
 
 ---
 
 ## Functionality / Features
 
-The website features several key pages, all with responsive design implemented for optimum viewing on mobile, tablet and desktop. All pages are accessible from the navigation menu at the top of the page and links to my social accounts can be found in the footer of each page. Links to my resume can also be found on the landing page as well as the about me page.
+The main features for this site are:
 
-All pages feature responsive layout design utilising flexbox and media queries. Consistent use of two imported Google fonts is also used, with specific fallback options for each.
-
-- Significant use of Flexbox
+- Fully responsive layout for all pages
+- Significant use of Flexbox and media queries
 - Use of semantic elements and comments make the code easy to follow.
 - Code designed using the D.R.Y. principle.
 - Animated titles on the landing page (using keyframes).
