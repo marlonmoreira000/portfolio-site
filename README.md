@@ -2,9 +2,9 @@
 
 ---
 
-Deployed site: ??????
+Deployed site: https://marlonmoreira000.github.io/portfolio-site/
 
-Remote repository: https://github.com/marlonmoreira000/portfolio-site`
+Remote repository: https://github.com/marlonmoreira000/portfolio-site
 
 ---
 
