@@ -1,10 +1,7 @@
-/* ####################################################
-                    IMPORTS
-#################################################### */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Grotesk:wght@600&display=swap");
 
 /* ####################################################
-                    GLOBAL SETUP
+              GLOBAL SETUP (SITE WIDE)
 #################################################### */
 * {
     margin: 0;
@@ -29,15 +26,21 @@ body {
     --main-font-backup: sans-serif;
 }
 /* TEXT STYLING */
-p, a {
+p,
+a {
     font-family: var(--main-font), var(--main-font-backup);
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--header-font), var(--header-font-backup);
 }
 
 /* ####################################################
-                    NAVBARS
+              COMPONENT 1 - NAVBARS
 #################################################### */
 /* NAVBAR SECTION */
 .header-container {
@@ -59,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ####################################################
-                    HEADINGS
+            COMPONENT 2 - HEADING SECTION
 #################################################### */
 .heading-container {
     width: 100%;
@@ -72,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ####################################################
-                    BUTTONS
+              COMPONENT 3 - BUTTONS
 #################################################### */
 .button-container {
     width: 100%;
@@ -95,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ####################################################
-                    FOOTERS
+                COMPONENT 4 - FOOTERS
 #################################################### */
 .footer-container {
     text-align: center;

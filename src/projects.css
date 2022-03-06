@@ -21,7 +21,7 @@
 }
 
 /* ####################################################
-                    PROJECT TILES
+            COMPONENT 6 - PROJECT TILES
 #################################################### */
 .project-tile {
     width: 100%;
@@ -44,17 +44,16 @@
     width: 120px;
 }
 
-
 /* ####################################################
                     MEDIA QUERIES
 #################################################### */
 @media only screen and (min-width: 800px) {
-.project-tile {
-    width: 50%;
-}
+    .project-tile {
+        width: 50%;
+    }
 }
 @media only screen and (min-width: 1200px) {
-.project-tile {
-    width: calc(100% / 3);
-}
+    .project-tile {
+        width: calc(100% / 3);
+    }
 }

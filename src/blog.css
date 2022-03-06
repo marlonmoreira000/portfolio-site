@@ -15,7 +15,7 @@
 }
 
 /* ####################################################
-                    BLOG ENTRIES
+             COMPONENT 5 - BLOG ENTRIES
 #################################################### */
 .blog-entry {
     text-align: center;
@@ -59,24 +59,24 @@
                     MEDIA QUERIES
 #################################################### */
 @media only screen and (min-width: 400px) {
-.blog-img {
-    width: 20%;
-}
-.blog-text {
-    padding: 2rem 15%;
-}
-.blog-header h3 {
-    font-size: 1.5rem;
-}
+    .blog-img {
+        width: 20%;
+    }
+    .blog-text {
+        padding: 2rem 15%;
+    }
+    .blog-header h3 {
+        font-size: 1.5rem;
+    }
 }
 @media only screen and (min-width: 900px) {
-.blog-img {
-    width: 165px;
-}
-.blog-text {
-    padding: 2rem 20%;
-}
-.blog-header h3 {
-    font-size: 2rem;
-}
+    .blog-img {
+        width: 165px;
+    }
+    .blog-text {
+        padding: 2rem 20%;
+    }
+    .blog-header h3 {
+        font-size: 2rem;
+    }
 }

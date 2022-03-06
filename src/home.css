@@ -39,6 +39,8 @@ body {
     background-color: var(--feature-color);
     text-align: center;
 }
+
+/* ANIMATED HEADING */
 .hero-text.primary {
     font-size: 2.5rem;
     font-family: var(--header-font);

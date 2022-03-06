@@ -48,7 +48,6 @@ body {
     text-align: center;
 }
 .main-img {
-    /* width: 60vw; */
     width: 100%;
     height: 30vh;
     border: 2px solid var(--text-colour);
@@ -75,8 +74,8 @@ body {
         width: 400px;
     }
     .main-text-container {
-    width: 450px;
-}
+        width: 450px;
+    }
 }
 @media only screen and (min-width: 1000px) {
     .flexbox-container-about {
