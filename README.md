@@ -66,4 +66,5 @@ For this project, I used the following technologies:
 - Canva (screenshots and presentation)
 - HTML5
 - CSS3
-- Git / GitHub
+- Git
+- GitHub Pages
