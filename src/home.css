@@ -31,18 +31,26 @@ body {
 }
 
 /* ####################################################
-                    MAIN HEADINGS
+                        MAIN
 #################################################### */
+/* MAIN CONTAINER */
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
 /* HERO TEXT */
 .hero-text-container {
-    padding: 2rem;
+    padding-top: 12vw;
+    padding-left: 22vw;
     background-color: var(--feature-color);
-    text-align: center;
+    text-align: left;
 }
 
 /* ANIMATED HEADING */
 .hero-text.primary {
     font-size: 2.5rem;
+    /* display: inline; */
     font-family: var(--header-font);
     /* animation */
     animation-name: slide-in-left-primary;
@@ -60,11 +68,15 @@ body {
 }
 .hero-text.secondary {
     font-size: 2rem;
+    display: inline;
     font-family: var(--header-font);
-    color: lightslategray;
+    color: whitesmoke;
+    background-color: black;
+    padding: 0.6rem 1rem 0.4rem 1rem;
     /* animation */
     animation-name: slide-in-left-secondary;
     animation-duration: 2s;
+    
 }
 @keyframes slide-in-left-secondary {
     0% {
@@ -78,14 +90,10 @@ body {
 }
 
 /* ####################################################
-                    MAIN IMAGE
+                        BUTTON
 #################################################### */
-.main-img-container {
-    text-align: center;
-    background-color: var(--feature-color);
-}
-.main-img {
-    width: 60vw;
+.button-container {
+    margin-top: auto;
 }
 
 /* ####################################################
@@ -104,9 +112,9 @@ body {
 }
 @media only screen and (min-width: 1000px) {
     .hero-text.primary {
-        font-size: 3.5rem;
+        font-size: 7rem;
     }
     .hero-text.secondary {
-        font-size: 2.8rem;
+        font-size: 5rem;
     }
 }
