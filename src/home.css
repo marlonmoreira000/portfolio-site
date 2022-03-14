@@ -41,7 +41,7 @@ body {
 
 /* HERO TEXT */
 .hero-text-container {
-    padding-top: 12vw;
+    padding-top: 15vh;
     padding-left: 22vw;
     background-color: var(--feature-color);
     text-align: left;
@@ -68,11 +68,11 @@ body {
 }
 .hero-text.secondary {
     font-size: 2rem;
-    display: inline;
+    /* display: inline; */
     font-family: var(--header-font);
-    color: whitesmoke;
+    color: white;
     background-color: black;
-    padding: 0.6rem 1rem 0.4rem 1rem;
+    padding: 0rem 1rem 0.4rem 1rem;
     /* animation */
     animation-name: slide-in-left-secondary;
     animation-duration: 2s;
