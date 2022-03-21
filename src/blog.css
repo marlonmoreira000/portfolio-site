@@ -14,6 +14,23 @@
     --main-font-backup: sans-serif;
 }
 
+/* WHOLE PAGE FLEXBOX */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header-container {
+    flex: 0 1 auto;
+}
+.main-container {
+    flex: 1 1 auto;
+    background-color: var(--feature-color);
+}
+.footer-container {
+    flex: 0 1 auto;
+}
+
 /* ####################################################
              COMPONENT 5 - BLOG ENTRIES
 #################################################### */
