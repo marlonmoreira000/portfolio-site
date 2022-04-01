@@ -73,6 +73,9 @@ body {
     .main-img {
         width: 400px;
     }
+    .main-img:hover {
+        background-image: url(./images/about/thuglife.png);
+    }
     .main-text-container {
         width: 450px;
     }
@@ -85,6 +88,9 @@ body {
     .main-img {
         width: 50%;
         height: auto;
+    }
+    .main-img:hover {
+        background-image: url(./images/about/thuglife.png);
     }
     .main-text-container {
         width: 50%;
