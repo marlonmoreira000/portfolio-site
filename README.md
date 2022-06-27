@@ -2,9 +2,13 @@
 
 ---
 
-Deployed site: https://marlonmoreira000.github.io/portfolio-site/
+## Links
 
-Remote repository: https://github.com/marlonmoreira000/portfolio-site`
+- [Demo video](https://www.linkedin.com/posts/marlonmoreira_my-first-portfolio-site-super-fun-to-make-activity-6915522190125785088-EDCG/?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+- [Deployed site](https://marlonmoreira000.github.io/portfolio-site/)
+
+- [Remote repository](https://github.com/marlonmoreira000/portfolio-site)
 
 ---
 
