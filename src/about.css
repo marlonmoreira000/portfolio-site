@@ -66,6 +66,14 @@ body {
     text-align: center;
 }
 
+.about-me-link {
+    color: black;
+}
+
+.about-me-link:visited {
+    color: black;
+}
+
 /* ####################################################
                     MEDIA QUERIES
 #################################################### */
